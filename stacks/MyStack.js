@@ -12,7 +12,7 @@ export default class MyStack extends sst.Stack {
     });
 
     const site = new sst.NextjsSite(this, "Site", {
-      path: "frontend",
+      path: "frontend-next",
       environment: {
         REGION: scope.region,
         TABLE_NAME: table.tableName
